@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * main - Entry point
- * Description: writing a program that prints putchar
- * Return - Always 0 (Success).
+ * Description: 'writing a program that prints putchar'
+ * Return - Always 0
  */
 int main(void)
 {
