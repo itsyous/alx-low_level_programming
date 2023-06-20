@@ -6,12 +6,7 @@
  */
 int _abs(int c)
 {
-	if (c < 0)
-	{
-		int abs_val;
+	
+	return (c >= 0 ? c : c * -1);
 
-		abs_val = c * -1;
-		return (abs_val);
-	}
-	return (c);
 }
