@@ -10,14 +10,18 @@
 
 int main(void)
 {
-	int sum, num;
+	int c = 0;
+	int sum = 0;
 
-	for (num = 0; num < 1024; num++)
+	while (c < 1024)
 	{
-		if ((num % 3 == 0) || (num % 5 == 0))
-			sum += num;
+		if ((c % 3 == 0) || (c % 5 == 0))
+		{
+			sum += c;
+		}
+
+		c++;
 	}
 	printf("%d\n", sum);
-
 	return (0);
 }
