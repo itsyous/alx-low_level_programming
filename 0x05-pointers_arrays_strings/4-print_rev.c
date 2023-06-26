@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_rev - prints reversed string, followed by a new line
- * @c: pointer to the string to print
+ * @c: the_character_to_be_written
  * Return: void
 */
 int _putchar(char c);
