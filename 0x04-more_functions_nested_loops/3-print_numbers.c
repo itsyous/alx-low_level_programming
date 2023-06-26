@@ -1,5 +1,7 @@
 #include "main.h"
 
+int _putchar(char c);
+
 /**
  * print numbers - print the numbers since 0 up to 9
  * Return: The numbers since 0 up to 9
