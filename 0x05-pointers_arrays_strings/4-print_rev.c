@@ -4,6 +4,7 @@
  * @s: pointer to the string to print
  * Return: void
 */
+int _putchar(char c);
 
 void print_rev(char *s)
 {
