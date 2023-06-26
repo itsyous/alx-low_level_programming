@@ -1,8 +1,10 @@
 #include "main.h"
+
+int _putchar(charc);
+
 /**
  * puts2 - prints a string, followed by a new line,
- * @str: pointer to the string to print
- * Return: void
+ * @s: the string_to_be_printed
  */
 
 void puts2(char *str)
