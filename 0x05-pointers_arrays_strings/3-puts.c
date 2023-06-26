@@ -4,12 +4,13 @@
  * @str: pointer to the string to print
  * Return: void
  */
+int _putchar(char c);
 
 void _puts(char *str)
 {
-	for n = 0;
+	int n = 0;
 
-	while (s[n])
+	while (str[n])
 	{
 		_putchar(str[n]);
 		n++;
