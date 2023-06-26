@@ -1,6 +1,6 @@
 #include "main.h"
 
-int _putchar(char c);
+int printf(int i);
 
 /**
  * print_array - print `n` elements of an array of integers
