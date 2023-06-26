@@ -1,7 +1,5 @@
 #include "main.h"
 
-int _putchar(char c);
-
 /**
  * _atoi - convert a string to an integer.
  * @s: char type string
