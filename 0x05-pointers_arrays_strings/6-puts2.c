@@ -1,6 +1,6 @@
 #include "main.h"
 
-int _putchar(charc);
+int _putchar(char c);
 
 /**
  * puts2 - prints a string, followed by a new line,
