@@ -5,7 +5,6 @@
  * Return: void
 */
 int _putchar(char c);
-
 /**
  * _puts - prints reversed string, followed by a new line,
  * @str: pointer_to_be
@@ -17,7 +16,6 @@ void print_rev(char *s)
 	while (s[i] != '\0')
 	{
 		i++;
-	        i--;
 	}
 	while (i >= 0)
 	{
