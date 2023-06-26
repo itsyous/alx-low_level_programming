@@ -3,6 +3,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * print_number - prints numbers
+ * @n: number to be printed
+ * Return:void
+ */
 int _putchar(char c);
 
 /**
