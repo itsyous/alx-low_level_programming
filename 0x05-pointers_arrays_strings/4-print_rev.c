@@ -3,8 +3,8 @@
 int _putchar(char c);
 
 /**
- * _puts - prints reversed string, followed by a new line,
- * @str: pointer_to_be
+ * print_rev - prints a strings in reverse followed by a new line
+ * @s: the string_to_be_printed
  */
 void print_rev(char *s)
 {
