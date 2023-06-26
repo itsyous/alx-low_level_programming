@@ -3,7 +3,7 @@
 int _putchar(char c);
 
 /**
- * print_rev - prints a strings, followed by a new line,
+ * print_rev - prints a strings in reverse followed by a new line,
  * @s: the string_to_be_printed
  */
 void puts2(char *str)
