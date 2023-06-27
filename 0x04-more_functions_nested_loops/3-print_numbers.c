@@ -1,9 +1,7 @@
 #include "main.h"
-
-int _putchar(char c);
-
 /**
- * print_numbers - prints numbers
+ * print_numbers - prints numbers range 0 - 9
+ *
  * Return: no return
  */
 void print_numbers(void)
