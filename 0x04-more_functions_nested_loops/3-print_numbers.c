@@ -4,7 +4,7 @@ int _putchar(char c);
 
 /**
  * print_numbers - prints numbers
- * Return:0
+ * Return: no return
  */
 void print_numbers(void)
 {
