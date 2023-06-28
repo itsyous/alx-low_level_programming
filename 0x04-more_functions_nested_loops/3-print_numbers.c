@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * print_numbers - prints numbers range 0 - 9
+ * @c: the number to_be_printed
+ */
+
 int _putchar(char c);
 
 /**
