@@ -3,6 +3,8 @@
 /**
  * print_numbers - prints numbers range 0 - 9
  * @c: the number to_be_printed
+ *
+ * Return: On Success
  */
 
 int _putchar(char c);
@@ -10,7 +12,7 @@ int _putchar(char c);
 /**
  * print_numbers - prints numbers range 0 - 9
  *
- * Return: no return
+ * Return: On Success
  */
 void print_numbers(void)
 {
