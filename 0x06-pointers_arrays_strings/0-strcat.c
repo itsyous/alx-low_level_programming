@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
  * _strncat - concatenate two strings
- * using at most n bytes from src
  * @dest: input value
  * @n: input value
  *
- * return: dest
+ * return: void
  */
 char *_strcat(char *dest, char *src)
 {
