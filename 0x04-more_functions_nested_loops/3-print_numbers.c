@@ -1,18 +1,8 @@
 #include "main.h"
-
 /**
- * print_numbers - prints numbers range 0 - 9
- * @c: the number to_be_printed
+ * print_numbers -  checks for checks for a digit (0 through 9).
  *
- * Return: On Success
- */
-
-int _putchar(char c);
-
-/**
- * print_numbers - prints numbers range 0 - 9
- *
- * Return: On Success
+ * Return: Always 0.
  */
 void print_numbers(void)
 {
