@@ -3,6 +3,8 @@
 #include <ctype.h>
 #include <string.h>
 
+int _putchar(char c);
+
 /**
  * main - prints the minimum number of coins
  * to make change for an amount of money
