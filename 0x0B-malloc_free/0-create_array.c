@@ -1,6 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
 
+int _putchar(char c);
+
 /**
  * create_array - create array of size and assign char c
  * @size: size of array
