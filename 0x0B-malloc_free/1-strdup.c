@@ -1,13 +1,12 @@
 #include "main.h"
 #include <stdlib.h>
 
-int _putchar(char c);
-
 /**
  * _stdrup - Duplicate a string
  * @str: the string to duplicate
  * Return: the string duplicated
  */
+
 char *_strdup(char *str)
 {
 	int a = 0, i = 1;
