@@ -1,9 +1,9 @@
 #include <stdlib.h>
 
 /**
- * _stdrup - Duplicate a string
- * @str: the string to duplicate
- * Return: the string duplicated
+ * _strdup - copy
+ * @str: pointer to string
+ * Return: pointer
  */
 
 char *_strdup(char *str)
