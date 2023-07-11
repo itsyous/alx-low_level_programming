@@ -1,9 +1,27 @@
 #include "main.h"
 
 /**
+ * _strlen - lenght of a string
+ * @s: input char
+ * Return: lenght of a string
+ */
+
+int _strlen(char *s)
+{
+	int l = 0;
+
+	while (*s != '\0')
+	{
+		s++;
+		l++;
+	}
+	return (l);
+}
+
+/**
  *str_concat - concatenates two strings of any size
  *@s1: the first string to concatenate
- *s2: the second string to concatenate
+ *@s2: the second string to concatenate
  *Return: two strings concatenated
  */
 char *str_concat(char *s1, char *s2)
