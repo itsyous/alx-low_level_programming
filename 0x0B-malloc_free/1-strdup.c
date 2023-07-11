@@ -1,6 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
 
+int _putchar(char c);
+
 /**
  * _stdrup - Duplicate a string
  * @str: the string to duplicate
