@@ -1,8 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
 
-int _putchar(char c);
-
 /**
  * create_array - create array of size and assign char c
  * @size: size of array
@@ -11,16 +9,21 @@ int _putchar(char c);
  */
 char *create_array(unsigned int size, char c)
 {
-	char *str;
+	char *s;
 	unsigned int i;
 
-	str = malloc(sizeof(char)*size);
-
-	if (size == 0 || str == NULL)
+	if (size == 0)
 		return (NULL);
 
-	for (i = 0, i < size, i++)
-		str[i] = c;
+	s = malloc(size * sizeof(char));
 
-	return (str);
+	if (s == NULL)
+		return (NULL);
+
+	for (i = 0; i < size; i++)
+	{
+		s[i] = c;
+	}
+
+	return (s);
 }
