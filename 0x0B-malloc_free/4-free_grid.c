@@ -1,12 +1,12 @@
 #include <stdlib.h>
 
 /**
- * prin_grid - prints a grid of integers
- * @grid: the address of the two dimensional grid
- * @width: width of the grid
- * @height: height of the grid
+ * free_grid - alloc_grid
+ * @grid: pointer to 2D arrays
+ * @height: array
  * Return: Nothing
  */
+
 void free_grid(int **grid, int height)
 {
 	int i;
