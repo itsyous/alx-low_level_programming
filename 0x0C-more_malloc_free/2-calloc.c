@@ -1,11 +1,10 @@
 #include <stdlib.h>
 
 /**
- * _memset - copy char
- * @s: string
- * @b: input
- * @n: bytes
- * Return: string
+ * _calloc - allocates memory for an array using malloc
+ * nmemb - n elements
+ * @size: bytes
+ * Return: pointer
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
