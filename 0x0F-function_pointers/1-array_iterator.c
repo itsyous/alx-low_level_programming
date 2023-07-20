@@ -1,6 +1,5 @@
 #include "function_pointers.h"
-
-int _putchar(char c);
+#include <stdio.h>
 
 /**
  * array_iterator - maps an array through a func pointer
