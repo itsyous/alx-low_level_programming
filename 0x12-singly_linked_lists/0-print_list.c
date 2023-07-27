@@ -1,35 +1,30 @@
 #include "lists.h"
 
 /**
- * _strlen - return the lenght of the string
- * @s: the string whose lenght to chack
- * Return: integer lenght of string
- */
-int _strlen(char *s)
-{
-	int = 0;
-
-	if (!s)
-		return (0);
-	while (*s++)
-		i++;
-	return (i);
-}
-
-/**
  * print_list - prints a linked lists
  * @h: pointer to first node
  * Return: size of list
  */
 size_t print_list(const list_t *h)
 {
-	size_t i = 0;
+	size_t nodes = 0;
+	const list_t *nav = h;
+	char *str;
+	int len;
 
-	while (h)
+	while (nav)
 	{
-		printf("[%d] %s\n", _strlen(h->str), h->str ? h->str : "(nil)");
-		h = h->next;
-		i++;
+		str = nav->str;
+		len = nav->len;
+		if (str == NULL)
+		{
+			str = "(nil)";
+			len = 0;
+		}
+		printf("[%d] %s\n", len, str);
+		nav = nav->next;
+		nodes++;
 	}
-	return (i);
+
+	return (nodes);
 }
