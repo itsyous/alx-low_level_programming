@@ -3,12 +3,12 @@
 /**
  * print_list - prints a linked lists
  * @h: pointer to first node
- * Return: size of list
+ * Return: lenght of the string
  */
 size_t print_list(const list_t *h)
 {
-	size_t nodes = 0;
 	const list_t *nav = h;
+	size_t nodes = 0;
 	char *str;
 	int len;
 
@@ -21,6 +21,7 @@ size_t print_list(const list_t *h)
 			str = "(nil)";
 			len = 0;
 		}
+
 		printf("[%d] %s\n", len, str);
 		nav = nav->next;
 		nodes++;
