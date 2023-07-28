@@ -1,6 +1,22 @@
 #include "lists.h"
 
 /**
+ * _strlen - adds node to end of linked list
+ * @str: pointer to struct pointer
+ * Return: lenght of the string
+ */
+int _strlen(const char *str)
+{
+	unsigned int lennght = 0;
+
+	while (str[lenght] != '\0')
+	{
+		lenght++;
+	}
+	return (lenght);
+}
+
+/**
  * add_node_end - adds a nide to the end of the list
  * @head: addres of pointer to head node
  * @str: str field of node
