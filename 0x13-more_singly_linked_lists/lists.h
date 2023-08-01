@@ -3,7 +3,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 /**
  * struct listint_s - singly linked list
@@ -17,18 +16,6 @@ typedef struct listint_s
 	int n;
 	struct listint_s *next;
 } listint_t;
-
-/**
- * struct list_s - singly linked lists
- * @p: pointers of the nodes
- * @next: points to the next node
- * Description: Singly linked list of pointers
- */
-typedef struct listp_s
-{
-	void *p;
-	struct listp_s *next;
-} listp_t;
 
 int_putchar(char c);
 size_t print_listint(const listint_t *h);
