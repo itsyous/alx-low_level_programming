@@ -9,7 +9,7 @@
 /**
  * main - program
  * @ac: argument count
- * @av: argument value
+ * @av: argument vector
  * Return: 1 on success,0 on failure
  */
 int main(int ac, char **av)
@@ -29,7 +29,7 @@ int main(int ac, char **av)
 
 	while ((b = read(from_fd, buf, READ_BUF_SIZE)) > 0)
 		if (write(to_fd, buf, b) != b)
-			dprintf(STDERR_FILENO, ERR_NOREAD, av[1]), exit(99);
+			dprintf(STDERR_FILENO, ERR_NOWRITE, av[2]), exit(99);
 	if (b == -1)
 		dprintf(STDERR_FILENO, ERR_NOREAD, av[1]), exit(98);
 
