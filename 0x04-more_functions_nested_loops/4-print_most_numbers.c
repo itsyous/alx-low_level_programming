@@ -1,7 +1,5 @@
 #include "main.h"
 
-int _putchar(char c);
-
 /**
  * print_most_numbers -  checks for checks for a digit (0 through 9).
  * @n: the number to print
