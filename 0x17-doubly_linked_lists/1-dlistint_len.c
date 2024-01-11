@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * print dlistint_t - print a doubly linked list
+ * dlistint_len - lenght of dlist
  * @h: address of first node
  * Return: lenght of nodes
  */
