@@ -31,7 +31,6 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		}
 	}
 	new_element = malloc(sizeof(hash_node_t));
-	
 	if (new_element == NULL)
 	{
 		free(new_value);
