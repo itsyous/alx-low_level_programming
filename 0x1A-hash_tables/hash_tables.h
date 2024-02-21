@@ -1,9 +1,9 @@
-#define HASH_TABLES_H
 #ifndef HASH_TABLES_H
+#define HASH_TABLES_H
 
-#include "stdio.h"
-#include "stdlib.h"
-#include "string.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 /**
  * struct hash_node_s - Node of a hash table
@@ -33,40 +33,6 @@ typedef struct hash_table_s
      unsigned long int size;
      hash_node_t **array;
 } hash_table_t;
-
-hash_table_t *hash_table_create(unsigned long int size);
-
-/**
- * struct shash_node_s - Node of a sorted hash table
- * @key: the key string
- * @value:the value corresponding to a key
- * @next: pointer to the next node
- * @prev: pointer to the previous node
- * @snext: pointer to the next element of a linked list
- */
-typedef struct shash_node_s
-{
-	char *key
-	char *value;
-	struct shash_node_s *next;
-	struct shash_node_s *prev;
-	struct shash_node_s *snext;
-} shash_node_t;
-
-/**
- * struct shash_table_s - sorted hash, table data structure
- * @size; the size of the array
- * @array: the array of size @size
- * @shead: a pointer to the first element of a list
- * @stail: a pointer to the last element of a list
- */
-typedef struct shash_table_s
-{
-	unsigned long int size;
-	shash_node_t **array;
-	shash_node_t *shead;
-	shash_node_t *stail;
-} shash_table_t;
 
 hash_table_t *hash_table_create(unsigned long int size);
 
